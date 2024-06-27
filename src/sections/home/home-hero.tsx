@@ -209,8 +209,8 @@ export default function HomeHero() {
 
       <m.div variants={varFade().in}>
         <Typography variant="body2" sx={{ textAlign: 'center' }}>
-          이곳은 '윤종현'님의 개인 페이지입니다.<br />
-          지난 경력사항과 현재 하고 있는 일들을 공유합니다.
+          'A.Nox' 홈페이지입니다.<br />
+          꿈과 희망을 이루어나가는 곳입니다.
         </Typography>
       </m.div>
 
@@ -244,7 +244,7 @@ export default function HomeHero() {
               variant="contained"
               startIcon={<Iconify icon="solar:star-linear" width={24} />}
             >
-              About 종현
+              About
             </Button>
           </Stack>
 
@@ -258,7 +258,7 @@ export default function HomeHero() {
             href={paths.post.root}
             sx={{ borderColor: 'text.primary' }}
           >
-            포스트 보러가기
+            Read post
           </Button>
         </Stack>
       </m.div>

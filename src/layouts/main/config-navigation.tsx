@@ -11,7 +11,7 @@ export const navConfig = [
     path: '/',
   },
   {
-    title: 'About me',
+    title: 'About',
     icon: <Iconify icon="solar:atom-bold-duotone" />,
     path: paths.about,
   },
@@ -20,9 +20,9 @@ export const navConfig = [
     icon: <Iconify icon="solar:atom-bold-duotone" />,
     path: paths.post.root,
   },
-  {
-    title: 'License',
-    icon: <Iconify icon="solar:atom-bold-duotone" />,
-    path: paths.license.root,
-  },
+  // {
+  //   title: 'License',
+  //   icon: <Iconify icon="solar:atom-bold-duotone" />,
+  //   path: paths.license.root,
+  // },
 ];

@@ -23,18 +23,20 @@ import SvgColor from '@components/svg-color';
 
 const LINKS = [
   {
-    headline: 'Jonghyun',
+    headline: 'Aurulenox',
     children: [
-      { name: 'About me', href: paths.about },
+      { name: 'About', href: paths.about },
       { name: 'Post', href: paths.post.root },
-      { name: 'License', href: paths.license.root },
+      // { name: 'License', href: paths.license.root },
     ],
   },
   {
     headline: 'Contact',
-    children: [{ name: 'starrything@gmail.com', href: '#' }],
+    children: [{ name: 'aurulenox@gmail.com', href: '#' }],
   },
 ];
+
+const currentYear  = new Date().getFullYear();
 
 // ----------------------------------------------------------------------
 
@@ -99,7 +101,7 @@ export default function Footer() {
                 mx: { xs: 'auto', md: 'unset' },
               }}
             >
-              윤종현님 개인 페이지입니다.
+              A.Nox 홈페이지입니다.
             </Typography>
 
             <Stack
@@ -160,7 +162,7 @@ export default function Footer() {
         </Grid>
 
         <Typography variant="body2" sx={{ mt: 10 }}>
-          © 2023. All rights reserved
+          © {currentYear}. All rights reserved
         </Typography>
       </Container>
     </Box>

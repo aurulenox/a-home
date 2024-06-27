@@ -3,7 +3,7 @@ import { HomeView } from 'src/sections/home/view';
 // ----------------------------------------------------------------------
 
 export const metadata = {
-  title: 'Jonghyun: 개인 페이지',
+  title: 'Aurulenox',
 };
 
 export default function HomePage() {

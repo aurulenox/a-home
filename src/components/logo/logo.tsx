@@ -99,7 +99,7 @@ const Logo = forwardRef<HTMLDivElement, LogoProps>(
         <Typography
           variant='h6'
         >
-          Jonghyun</Typography>
+          Aurulenox</Typography>
       </Link>
     );
   }
