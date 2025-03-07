@@ -182,7 +182,7 @@ export default function HomeHero() {
         },
       }}
     >
-      <m.div variants={varFade().in}>
+      {/* <m.div variants={varFade().in}>
         <Typography
           variant="h2"
           sx={{
@@ -191,7 +191,7 @@ export default function HomeHero() {
         >
           안녕하세요.
         </Typography>
-      </m.div>
+      </m.div> */}
 
       <m.div variants={varFade().in}>
         <StyledTextGradient
@@ -209,8 +209,7 @@ export default function HomeHero() {
 
       <m.div variants={varFade().in}>
         <Typography variant="body2" sx={{ textAlign: 'center' }}>
-          'A.Nox' 홈페이지입니다.<br />
-          꿈과 희망을 이루어나가는 곳입니다.
+          아우룰레녹스(A.Nox*) 홈페이지입니다.<br />
         </Typography>
       </m.div>
 

@@ -41,22 +41,22 @@ export default function PostListHomeView() {
       name: "Jonghyun"
     },
     coverUrl: "https://api-dev-minimal-v510.vercel.app/assets/images/cover/cover_2.jpg",
-    createdAt: "2024-01-05T08:32:59.689Z",
+    createdAt: "2025-03-05T08:32:59.689Z",
     id: "e99f09a7-dd88-49d5-b1c8-1daf80c2d7b1",
-    pageTitle: "IBK시스템 (2022.03.-2024.01.)",
-    title: "ibks",
+    pageTitle: "아우룰레녹스 유한책임회사",
+    title: "nox",
   },
-  {
-    author: {
-      avatarUrl: "https://api-dev-minimal-v510.vercel.app/assets/images/avatar/avatar_9.jpg",
-      name: "Jonghyun"
-    },
-    coverUrl: "https://api-dev-minimal-v510.vercel.app/assets/images/cover/cover_1.jpg",
-    createdAt: "2022-02-14T08:32:59.689Z",
-    id: "e99f09a7-dd88-49d5-b1c8-1daf80c2d7b1",
-    pageTitle: "ILJIN C&S (2014.12.-2022.02.)",
-    title: "iljin",
-  }
+  // {
+  //   author: {
+  //     avatarUrl: "https://api-dev-minimal-v510.vercel.app/assets/images/avatar/avatar_9.jpg",
+  //     name: "Jonghyun"
+  //   },
+  //   coverUrl: "https://api-dev-minimal-v510.vercel.app/assets/images/cover/cover_1.jpg",
+  //   createdAt: "2022-02-14T08:32:59.689Z",
+  //   id: "e99f09a7-dd88-49d5-b1c8-1daf80c2d7b1",
+  //   pageTitle: "ILJIN C&S (2014.12.-2022.02.)",
+  //   title: "iljin",
+  // }
 ])
 
   const { searchResults, searchLoading } = useSearchPosts(debouncedQuery);

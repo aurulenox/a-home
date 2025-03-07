@@ -95,8 +95,7 @@ export default function AboutVision() {
 
         <m.div variants={varFade().inUp}>
           <Typography variant="h5" sx={{ textAlign: 'center', maxWidth: 800, mx: 'auto' }}>
-            제가 그리는 미래는 보편적으로 인정받는 바름과 정의를 구현하는 세상입니다. <br />
-            좋은 사람들과 따뜻한 시간을 함께 공유하며 아름다운 기억을 쌓아나가는 것입니다.
+            문제에 대한 정확한 진단과 적합한 솔루션을 제공합니다.
           </Typography>
         </m.div>
       </Container>

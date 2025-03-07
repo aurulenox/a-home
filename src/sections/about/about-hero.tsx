@@ -35,14 +35,14 @@ export default function AboutHero() {
             },
           }}
         >
-          <TextAnimate text="Who" variants={varFade().inRight} sx={{ color: 'primary.main' }} />
+          {/* <TextAnimate text="Who" variants={varFade().inRight} sx={{ color: 'primary.main' }} />
 
           <br />
 
           <Stack spacing={2} display="inline-flex" direction="row" sx={{ color: 'common.white' }}>
             <TextAnimate text="am" />
             <TextAnimate text="I?" />
-          </Stack>
+          </Stack> */}
 
           <m.div variants={varFade().inRight}>
             <Typography
@@ -53,8 +53,8 @@ export default function AboutHero() {
                 fontWeight: 'fontWeightSemiBold',
               }}
             >
-              IT소프트웨어 개발 경력 9년,
-              <br /> 그리고 이제 새로운 영역을 개척하고 있습니다.
+              흥미로운 소프트웨어 개발로 세상을 탐구합니다.
+              <br /> 상상하는 모든 것을 구현합니다.
             </Typography>
           </m.div>
         </Box>

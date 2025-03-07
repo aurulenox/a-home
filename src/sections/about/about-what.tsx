@@ -85,8 +85,7 @@ export default function AboutWhat() {
                 color: theme.palette.mode === 'light' ? 'text.secondary' : 'common.white',
               }}
             >
-              @2024~ <br />
-              2025년 공인회계사(CPA) 2월 1차 시험과 동차 6월 2차 시험을 준비하고 있습니다.
+              -
             </Typography>
           </m.div>
 
@@ -138,8 +137,7 @@ export default function AboutWhat() {
                 color: theme.palette.mode === 'light' ? 'text.secondary' : 'common.white',
               }}
             >
-              @2022.3 ~ @2023.12 (IBK시스템)<br />
-              @2014.12 ~ @2022.2 (ILJIN 씨앤에스)<br />
+              @{new Date().getFullYear()}<br />
             </Typography>
           </m.div>
         </Grid>

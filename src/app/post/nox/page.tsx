@@ -3,7 +3,7 @@ import axios, { endpoints } from 'src/utils/axios';
 
 import { PostDetailsHomeView } from 'src/sections/post/view';
 
-import { getContents } from 'src/_contents/2024-01-ibks'
+import { getContents } from 'src/_contents/2025-03-nox'
 
 // ----------------------------------------------------------------------
 

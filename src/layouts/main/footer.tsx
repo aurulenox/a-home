@@ -36,7 +36,7 @@ const LINKS = [
   },
 ];
 
-const currentYear  = new Date().getFullYear();
+const currentYear = new Date().getFullYear();
 
 // ----------------------------------------------------------------------
 
@@ -59,9 +59,9 @@ export default function Footer() {
         {/* <Logo sx={{ mb: 1, mx: 'auto' }} /> */}
 
         <Typography variant="caption" component="div">
-          © All rights reserved
-          <br /> made by
-          <Link href="#"> Jonghyun </Link>
+          아울레녹스 유한책임회사 | 대표자: 윤종현 | 서울특별시 성동구 왕십리로16 | Email: | 연락처:
+          <br />
+          © {currentYear} Aurulenox and its related entities. All rights reserved.
         </Typography>
       </Container>
     </Box>
@@ -101,10 +101,10 @@ export default function Footer() {
                 mx: { xs: 'auto', md: 'unset' },
               }}
             >
-              A.Nox 홈페이지입니다.
+              아우룰레녹스(A.Nox*) 홈페이지입니다.
             </Typography>
 
-            <Stack
+            {/* <Stack
               direction="row"
               justifyContent={{ xs: 'center', md: 'flex-start' }}
               sx={{
@@ -124,11 +124,10 @@ export default function Footer() {
                   rel="noopener"
                   href={social.path}
                 >
-                  {/* <Iconify color={social.color} icon={social.icon} /> */}
                   <SvgColor color={social.color} src={social.src} sx={{ width: social.name === 'Naver' ? '16px !important;' : '24px', height: social.name === 'Naver' ? '16px !important;' : '24px' }} />
                 </IconButton>
               ))}
-            </Stack>
+            </Stack> */}
           </Grid>
 
           <Grid xs={12} md={6}>
@@ -162,7 +161,9 @@ export default function Footer() {
         </Grid>
 
         <Typography variant="body2" sx={{ mt: 10 }}>
-          © {currentYear}. All rights reserved
+          아울레녹스 유한책임회사 | 대표자: 윤종현 | 서울특별시 성동구 왕십리로16 | Email: | 연락처:
+          <br />
+          © {currentYear}. All rights reserved.
         </Typography>
       </Container>
     </Box>
