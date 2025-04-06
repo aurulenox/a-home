@@ -26,7 +26,7 @@ const LINKS = [
     headline: 'Aurulenox',
     children: [
       { name: 'About', href: paths.about },
-      { name: 'Post', href: paths.post.root },
+      { name: 'Notice', href: paths.post.root },
       // { name: 'License', href: paths.license.root },
     ],
   },
@@ -59,7 +59,7 @@ export default function Footer() {
         {/* <Logo sx={{ mb: 1, mx: 'auto' }} /> */}
 
         <Typography variant="caption" component="div">
-          아울레녹스 유한책임회사 | 대표자: 윤종현 | 서울특별시 성동구 왕십리로16 | Email: | 연락처:
+          아울레녹스 유한책임회사 | 대표자: 윤종현 | 서울특별시 성동구 왕십리로16 | Email: | 연락처: 010-5969-9992
           <br />
           © {currentYear} Aurulenox and its related entities. All rights reserved.
         </Typography>

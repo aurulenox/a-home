@@ -16,7 +16,7 @@ export const navConfig = [
     path: paths.about,
   },
   {
-    title: 'Post',
+    title: 'Notice',
     icon: <Iconify icon="solar:atom-bold-duotone" />,
     path: paths.post.root,
   },

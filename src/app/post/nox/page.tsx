@@ -8,7 +8,7 @@ import { getContents } from 'src/_contents/2025-03-nox'
 // ----------------------------------------------------------------------
 
 export const metadata = {
-  title: 'Post: Details',
+  title: 'Notice: Details',
 };
 
 type Props = {

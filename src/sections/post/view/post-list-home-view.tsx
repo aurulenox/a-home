@@ -82,7 +82,7 @@ export default function PostListHomeView() {
           my: { xs: 3, md: 5 },
         }}
       >
-        Post
+        Notice
       </Typography>
 
       <Stack
