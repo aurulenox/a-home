@@ -1,7 +1,7 @@
 import { paramCase } from 'src/utils/change-case';
 import axios, { endpoints } from 'src/utils/axios';
 
-import { PostDetailsHomeView } from 'src/sections/post/view';
+import { PostDetailsHomeView } from 'src/sections/notice/view';
 
 import { getContents } from 'src/_contents/2025-03-nox'
 

@@ -18,9 +18,9 @@ import { useSettingsContext } from 'src/components/settings';
 
 import { IPostItem } from 'src/types/blog';
 
-import PostList from '../post-list';
-import PostSort from '../post-sort';
-import PostSearch from '../post-search';
+import PostList from '../notice-list';
+import PostSort from '../notice-sort';
+import PostSearch from '../notice-search';
 
 // ----------------------------------------------------------------------
 
@@ -35,17 +35,17 @@ export default function PostListHomeView() {
 
   const { posts, postsLoading } = useGetPosts();
   const [myPosts, setMyPosts] = useState<any[]>([
-    {
-    author: {
-      avatarUrl: "https://api-dev-minimal-v510.vercel.app/assets/images/avatar/avatar_9.jpg",
-      name: "Jonghyun"
-    },
-    coverUrl: "https://api-dev-minimal-v510.vercel.app/assets/images/cover/cover_2.jpg",
-    createdAt: "2025-03-05T08:32:59.689Z",
-    id: "e99f09a7-dd88-49d5-b1c8-1daf80c2d7b1",
-    pageTitle: "아우룰레녹스 유한책임회사",
-    title: "nox",
-  },
+  //   {
+  //   author: {
+  //     avatarUrl: "https://api-dev-minimal-v510.vercel.app/assets/images/avatar/avatar_9.jpg",
+  //     name: "Jonghyun"
+  //   },
+  //   coverUrl: "https://api-dev-minimal-v510.vercel.app/assets/images/cover/cover_2.jpg",
+  //   createdAt: "2025-03-05T08:32:59.689Z",
+  //   id: "e99f09a7-dd88-49d5-b1c8-1daf80c2d7b1",
+  //   pageTitle: "아우룰레녹스 유한책임회사",
+  //   title: "nox",
+  // },
   // {
   //   author: {
   //     avatarUrl: "https://api-dev-minimal-v510.vercel.app/assets/images/avatar/avatar_9.jpg",

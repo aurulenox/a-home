@@ -21,9 +21,9 @@ import Markdown from 'src/components/markdown';
 import EmptyContent from 'src/components/empty-content';
 import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
 
-import PostList from '../post-list';
-import PostDetailsHero from '../post-details-hero';
-import { PostDetailsSkeleton } from '../post-skeleton';
+import PostList from '../notice-list';
+import PostDetailsHero from '../notice-details-hero';
+import { PostDetailsSkeleton } from '../notice-skeleton';
 
 // ----------------------------------------------------------------------
 

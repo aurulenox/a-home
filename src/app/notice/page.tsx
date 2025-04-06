@@ -1,4 +1,4 @@
-import { PostListHomeView } from 'src/sections/post/view';
+import { PostListHomeView } from 'src/sections/notice/view';
 
 // ----------------------------------------------------------------------
 

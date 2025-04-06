@@ -6,8 +6,8 @@ import Iconify from 'src/components/iconify';
 
 import { IPostItem } from 'src/types/blog';
 
-import PostItem from './post-item';
-import { PostItemSkeleton } from './post-skeleton';
+import PostItem from './notice-item';
+import { PostItemSkeleton } from './notice-skeleton';
 
 // ----------------------------------------------------------------------
 
