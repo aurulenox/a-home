@@ -81,7 +81,7 @@ export default function PostDetailsHomeView({ contents }: Props) {
               href: '/',
             },
             {
-              name: 'Post',
+              name: 'Notice',
               href: '/post',
             },
             {
