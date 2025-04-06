@@ -1,8 +1,8 @@
 {
-  "name": "@jonghyun-page/next-ts",
+  "name": "@aurulenox-page/next-ts",
   "author": "Jonghyun",
   "version": "1.0.0",
-  "description": "Jonghyun's page.",
+  "description": "Aurulenox's home.",
   "private": true,
   "scripts": {
     "dev": "next dev -p 8082",
