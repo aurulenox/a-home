@@ -15,7 +15,7 @@ const ROOTS = {
 // ----------------------------------------------------------------------
 
 export const paths = {
-  about: '/about-me',
+  about: '/about',
   contact: '/contact-us',
   faqs: '/faqs',
   page403: '/error/403',
@@ -23,13 +23,13 @@ export const paths = {
   page500: '/error/500',
   components: '/components',
   post: {
-    root: '/post',
-    details: (title: string) => `/post/${paramCase(title)}`,
+    root: '/notice',
+    details: (title: string) => `/notice/${paramCase(title)}`,
   },
-  license: {
-    root: '/license',
-    details: (title: string) => `/license/${paramCase(title)}`,
-  },
+  // license: {
+  //   root: '/license',
+  //   details: (title: string) => `/license/${paramCase(title)}`,
+  // },
   // AUTH
   auth: {
     amplify: {
