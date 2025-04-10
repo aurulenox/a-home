@@ -257,7 +257,8 @@ export default function HomeHero() {
             href={paths.post.root}
             sx={{ borderColor: 'text.primary' }}
           >
-            Read post
+            {/* Read post */}
+            Notice
           </Button>
         </Stack>
       </m.div>
