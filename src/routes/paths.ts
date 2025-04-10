@@ -26,10 +26,10 @@ export const paths = {
     root: '/notice',
     details: (title: string) => `/notice/${paramCase(title)}`,
   },
-  // license: {
-  //   root: '/license',
-  //   details: (title: string) => `/license/${paramCase(title)}`,
-  // },
+  license: {
+    root: '/license',
+    details: (title: string) => `/license/${paramCase(title)}`,
+  },
   // AUTH
   auth: {
     amplify: {
