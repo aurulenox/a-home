@@ -15,7 +15,7 @@ export default function AboutView() {
 
       {/* <AboutWhat /> */}
 
-      <AboutVision />
+      {/* <AboutVision /> */}
 
       {/* <AboutTeam /> */}
 

@@ -73,7 +73,7 @@ export default function AboutVision() {
       }}
     >
       <Container component={MotionViewport}>
-        {/* <Box
+        <Box
           sx={{
             mb: 10,
             borderRadius: 2,
@@ -83,17 +83,15 @@ export default function AboutVision() {
             alignItems: 'center',
             justifyContent: 'center',
           }}
-        > */}
-          {/* {renderImg} */}
+        >
+          {renderImg}
 
           {/* {renderLogo} */}
 
           {/* <Fab sx={{ position: 'absolute', zIndex: 9 }}>
             <Iconify icon="solar:play-broken" width={24} />
           </Fab> */}
-        {/* </Box> */}
-
-
+        </Box>
 
         <m.div variants={varFade().inUp}>
           <Typography variant="h5" sx={{ textAlign: 'center', maxWidth: 800, mx: 'auto' }}>
