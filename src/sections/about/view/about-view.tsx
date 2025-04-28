@@ -13,7 +13,7 @@ export default function AboutView() {
     <>
       <AboutHero />
 
-      {/* <AboutWhat /> */}
+      <AboutWhat />
 
       {/* <AboutVision /> */}
 

@@ -53,8 +53,8 @@ export default function AboutHero() {
                 fontWeight: 'fontWeightSemiBold',
               }}
             >
-              흥미로운 소프트웨어 개발로 세상을 탐구합니다.
-              <br /> 상상하는 모든 것을 구현합니다.
+              Let's work together and
+              <br /> make awesome!
             </Typography>
           </m.div>
         </Box>
