@@ -233,7 +233,8 @@ export default function HomeHero() {
       <br />
 
       <m.div variants={varFade().in}>
-        <Stack spacing={1.5} direction={{ xs: 'column-reverse', sm: 'row' }} sx={{ mb: 5 }}>
+        {/* <Stack spacing={1.5} direction={{ xs: 'column-reverse', sm: 'row' }} sx={{ mb: 5 }}> */}
+        <Stack spacing={1.5} direction={{ xs: 'column', sm: 'row' }} sx={{ mb: 5 }}>
           <Stack alignItems="center" spacing={2}>
             <Button
               component={RouterLink}
@@ -245,7 +246,8 @@ export default function HomeHero() {
             >
               About
             </Button>
-
+          </Stack>
+          <Stack alignItems="center" spacing={2}>
             <Button
               color="inherit"
               size="large"

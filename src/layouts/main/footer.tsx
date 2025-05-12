@@ -13,6 +13,8 @@ import { paths } from 'src/routes/paths';
 import { usePathname } from 'src/routes/hooks';
 import { RouterLink } from 'src/routes/components';
 
+import { useResponsive } from 'src/hooks/use-responsive';
+
 import { _socials } from 'src/_mock';
 
 import Logo from 'src/components/logo';
@@ -32,7 +34,7 @@ const LINKS = [
   },
   {
     headline: 'Contact',
-    children: [{ name: 'aurulenox@gmail.com', href: '#' }],
+    children: [{ name: 'sales@aurulenox.com', href: '#' }],
   },
 ];
 
@@ -42,6 +44,10 @@ const currentYear = new Date().getFullYear();
 
 export default function Footer() {
   const pathname = usePathname();
+
+  const mdUp = useResponsive('up', 'md');
+
+  const footerTypographyVariant = mdUp ? "body2" : "caption";
 
   const homePage = pathname === '/';
 
@@ -59,7 +65,7 @@ export default function Footer() {
         {/* <Logo sx={{ mb: 1, mx: 'auto' }} /> */}
 
         <Typography variant="caption" component="div">
-          아울레녹스 유한책임회사 | 대표자: 윤종현 | 서울특별시 성동구 왕십리로16 | Email: help.aurulenox@gmail.com | 연락처: 010-5969-9992
+          아울레녹스 유한책임회사 | 대표자: 윤종현 | 서울특별시 용산구 이촌로64길 15 | Email: sales@aurulenox.com | Tel: 010-5969-9992
           <br />
           © {currentYear} Aurulenox and its related entities. All rights reserved.
         </Typography>
@@ -85,26 +91,27 @@ export default function Footer() {
         }}
       >
         {/* <Logo sx={{ mb: 3 }} /> */}
+        {mdUp &&
+          <Grid
+            container
+            justifyContent={{
+              xs: 'center',
+              md: 'space-between',
+            }}
+          >
+            <Grid xs={8} md={3}>
+              <Typography
+                variant="body2"
+                sx={{
+                  maxWidth: 270,
+                  mx: { xs: 'auto', md: 'unset' },
+                }}
+              >
+                아우룰레녹스(A.Nox*) 홈페이지입니다.
+              </Typography>
 
-        <Grid
-          container
-          justifyContent={{
-            xs: 'center',
-            md: 'space-between',
-          }}
-        >
-          <Grid xs={8} md={3}>
-            <Typography
-              variant="body2"
-              sx={{
-                maxWidth: 270,
-                mx: { xs: 'auto', md: 'unset' },
-              }}
-            >
-              아우룰레녹스(A.Nox*) 홈페이지입니다.
-            </Typography>
-
-            {/* <Stack
+              {/* Social Media Icon LINK */}
+              {/* <Stack
               direction="row"
               justifyContent={{ xs: 'center', md: 'flex-start' }}
               sx={{
@@ -128,40 +135,41 @@ export default function Footer() {
                 </IconButton>
               ))}
             </Stack> */}
+            </Grid>
+
+            <Grid xs={12} md={6}>
+              <Stack spacing={5} direction={{ xs: 'column', md: 'row' }}>
+                {LINKS.map((list) => (
+                  <Stack
+                    key={list.headline}
+                    spacing={2}
+                    alignItems={{ xs: 'center', md: 'flex-start' }}
+                    sx={{ width: 1 }}
+                  >
+                    <Typography component="div" variant="overline">
+                      {list.headline}
+                    </Typography>
+
+                    {list.children.map((link) => (
+                      <Link
+                        key={link.name}
+                        component={RouterLink}
+                        href={link.href}
+                        color="inherit"
+                        variant="body2"
+                      >
+                        {link.name}
+                      </Link>
+                    ))}
+                  </Stack>
+                ))}
+              </Stack>
+            </Grid>
           </Grid>
+        }
 
-          <Grid xs={12} md={6}>
-            <Stack spacing={5} direction={{ xs: 'column', md: 'row' }}>
-              {LINKS.map((list) => (
-                <Stack
-                  key={list.headline}
-                  spacing={2}
-                  alignItems={{ xs: 'center', md: 'flex-start' }}
-                  sx={{ width: 1 }}
-                >
-                  <Typography component="div" variant="overline">
-                    {list.headline}
-                  </Typography>
-
-                  {list.children.map((link) => (
-                    <Link
-                      key={link.name}
-                      component={RouterLink}
-                      href={link.href}
-                      color="inherit"
-                      variant="body2"
-                    >
-                      {link.name}
-                    </Link>
-                  ))}
-                </Stack>
-              ))}
-            </Stack>
-          </Grid>
-        </Grid>
-
-        <Typography variant="body2" sx={{ mt: 10 }}>
-          아울레녹스 유한책임회사 | 대표자: 윤종현 | 서울특별시 성동구 왕십리로16 | Email: help.aurulenox@gmail.com | 연락처: 010-5969-9992
+        <Typography variant={footerTypographyVariant} sx={{ mt: 10 }}>
+          아울레녹스 유한책임회사 | 대표자: 윤종현 | 서울특별시 용산구 이촌로64길 15 | Email: sales@aurulenox.com | Tel: 010-5969-9992
           <br />
           © {currentYear} Aurulenox and its related entities. All rights reserved.
         </Typography>
