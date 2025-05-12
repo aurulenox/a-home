@@ -245,21 +245,21 @@ export default function HomeHero() {
             >
               About
             </Button>
-          </Stack>
 
-          <Button
-            color="inherit"
-            size="large"
-            variant="outlined"
-            startIcon={<Iconify icon="radix-icons:reader" width={24} />}
-            target="_blank"
-            rel="noopener"
-            href={paths.post.root}
-            sx={{ borderColor: 'text.primary' }}
-          >
-            {/* Read post */}
-            Notice
-          </Button>
+            <Button
+              color="inherit"
+              size="large"
+              variant="outlined"
+              startIcon={<Iconify icon="radix-icons:reader" width={24} />}
+              target="_blank"
+              rel="noopener"
+              href={paths.post.root}
+              sx={{ borderColor: 'text.primary' }}
+            >
+              {/* Read post */}
+              Notice
+            </Button>
+          </Stack>
         </Stack>
       </m.div>
     </Stack>
