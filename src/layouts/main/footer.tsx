@@ -107,7 +107,7 @@ export default function Footer() {
                   mx: { xs: 'auto', md: 'unset' },
                 }}
               >
-                아우룰레녹스(A.Nox*) 홈페이지입니다.
+                아우룰레녹스(A.nox*) 홈페이지입니다.
               </Typography>
 
               {/* Social Media Icon LINK */}

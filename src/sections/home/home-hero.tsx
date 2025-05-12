@@ -209,7 +209,7 @@ export default function HomeHero() {
 
       <m.div variants={varFade().in}>
         <Typography variant="body2" sx={{ textAlign: 'center' }}>
-          아우룰레녹스(A.Nox*) 홈페이지입니다.<br />
+          아우룰레녹스(A.nox*) 홈페이지입니다.<br />
         </Typography>
       </m.div>
 
