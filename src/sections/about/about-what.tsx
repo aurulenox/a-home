@@ -211,11 +211,11 @@ export default function AboutWhat() {
           </m.div>
 
           <m.div variants={varFade().inRight}>
-            <Typography
+            {/* <Typography
               sx={{
                 color: theme.palette.mode === 'light' ? 'text.secondary' : 'common.white',
               }}
-            >
+            > */}
               <List
               sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}
               component="nav"
@@ -251,7 +251,7 @@ export default function AboutWhat() {
                 </List>
               </Collapse>
             </List>
-            </Typography>
+            {/* </Typography> */}
           </m.div>
         </Grid>
         {mdUp && (
